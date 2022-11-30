@@ -4,7 +4,7 @@ import { AddCategory, GifGrid } from './components'
 export const GifExpertApp = () => {
     const [categories, setCategories] = useState([])
     
-    const onAddCategory = (value) => {
+     const onAddCategory = (value) => {
         if (!categories.includes(value)) {
             setCategories([value, ...categories])
         }
