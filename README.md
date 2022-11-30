@@ -1,1 +1,3 @@
-# react-gif-search
+# GifSearch
+
+App created with React / JS using giphy api.
